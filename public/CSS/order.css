@@ -1,0 +1,42 @@
+.gradient-background {
+    background: linear-gradient(300deg, #D8C4B6, #4F709C, #213555);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .white-svg {
+    fill: white;
+  }
+
+  .green-svg {
+    fill: #198754;
+  }
+
+  .pink-svg {
+    fill: #FFD0D0;
+  }
+
+  .blue-svg{
+    fill: #0d6efd80;
+  }
+
+  .active {
+    background-color: #0d6efd80 !important;
+  }
+
+  .profile-img {
+    height: 200px;
+  }
+  
