@@ -1,0 +1,53 @@
+.gradient-background {
+    background: linear-gradient(300deg, #FFD0D0, #FDEFF4, #1A1A40);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .white-svg {
+    fill: white;
+  }
+
+  .green-svg {
+    fill: #198754;
+  }
+
+  .pink-svg {
+    fill: #FFD0D0;
+  }
+
+  .active {
+    background-color: #FFD0D0 !important;
+  }
+
+  .profile-img {
+    height: 200px;
+  }
+
+.pink-text {
+    color: #FFD0D0;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+ .btn-success {
+    background-color: #FFD0D0 !important;
+    border-color: #FFD0D0;
+}
+

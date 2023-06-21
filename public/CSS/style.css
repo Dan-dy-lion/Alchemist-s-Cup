@@ -24,6 +24,10 @@
     fill: #198754;
   }
 
+  .pink-svg {
+    fill: #FFD0D0;
+  }
+
   .active {
     background-color: #198754 !important;
   }
